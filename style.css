@@ -85,9 +85,9 @@ body{
 }
 
 .text h6{
-    position: absolute;
+  
     display: flex;
-    align-items: center
+    align-items: center;
     width: 96px;
     height: 19px;
     font-size: 19px;
@@ -99,7 +99,7 @@ body{
 }
 
 .cabecario button {
-position: absolute;
+
 width: 150px;
 height: 44px;
 border: 0.8px solid #304F8C;
@@ -117,7 +117,7 @@ font-weight: 800;
 
 
 .C1 {
-    position: absolute;
+  
     width: 1280px;
     height: 397px;
     margin-left: 72px;
@@ -171,8 +171,7 @@ font-weight: 800;
 }
 
 .T1 img {
-    position: absolute;
-    
+   
     width: 432px;
     height: 349px;
     margin-top: -200px;
@@ -329,7 +328,7 @@ font-weight: 800;
 
 
 .C2{
-    position: absolute;
+   
     width: 1280px;
     height: 424px;
   background-color: #E5E5E5;;
@@ -366,8 +365,27 @@ font-weight: 800;
     margin-left: 50px;
     
 }
+
+.T3{
+    width: 1280px;
+    height: 208px;
+    margin-top: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quadrado{
+    width: 268px;
+    height: 208px;
+    border-radius: 10px;
+    background-color: #FFFFFF;  
+    margin-left: 21px;
+    
+}
+
 .T3 #img1 {
-    position: absolute;
     width: 59px;
     height: 59px;
     margin-top: 20px;
@@ -402,18 +420,6 @@ font-weight: 800;
 
 
 
-.quadrado2{
-    position: absolute;
-    width: 268px;
-    height: 208px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    margin-top: -210px;
-    margin-left: 350px;
-    
-}
-
-
 .T3 #img2 {
     width: 59px;
     height: 59px;
@@ -446,17 +452,7 @@ font-weight: 800;
     margin-left: 2px;
 }
 
-.quadrado3{
-    position: absolute;
-    width: 268px;
-    height: 208px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    margin-top: -210px;
-    margin-left: 650px ;
-   
-    
-}
+
 .T3 #img3 {
     width: 59px;
     height: 59px;
@@ -490,24 +486,12 @@ font-weight: 800;
     
 }
 
-.quadrado4{
-    position: absolute;
-    width: 268px;
-    height: 208px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    margin-top: -210px;
-    margin-left: 950px ;
-    
-    
-}
 
 .T3 #img4 {
     width: 59px;
     height: 59px;
     margin-top: 20px;
     margin-left: 24px;
-    
   
 }
 
@@ -541,6 +525,7 @@ font-weight: 800;
     height: 777.27px;
     margin-top: 54px;
    background:#E5E5E5 ;
+   
 }
 
 
@@ -628,20 +613,24 @@ font-weight: 800;
 }
 
 .T4{
-    position: absolute;
+   
     width: 1280px;
     height: 424px;
-  background-color: #E5E5E5;;
-   
-}
+    margin-top: 89px;
+    margin-left: 72px;
 
-.T4 h5{
+}
+   
+
+
+.T4 h5 {
     width: 82px;
     height: 56px;
     font-size: 16px;
     font-weight: 400 ;
-    margin-left: 43px ;
-    margin-top: 69px;
+    margin-left: 35px ;
+
+    
 }
 
 .T4 h6 {
@@ -650,54 +639,50 @@ font-weight: 800;
     font-size: 32px;
     font-weight: 500 ;
     margin-left: 43px ;
-    margin-top: -25px;
     
 }
 
-.quad1{
-    width: 268px;
+
+.atuacao-quad{
+    width: 1280px;
     height: 208px;
     border-radius: 10px;
-    background-color: #FFFFFF;
-    margin-top: 25px;
-    margin-left: 50px;
-    
+    margin-top:30px ;
+    margin-left: 10px;
+    display: inline-flex;
 }
 
-
-.quad2{
+.quad{
     width: 268px;
     height: 208px;
+    margin-left: 21px;
     border-radius: 10px;
     background-color: #FFFFFF;
-    margin-top: 25px;
-    margin-left: 50px;
-    
-}
-
-.quad3{
-    width: 268px;
-    height: 208px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    margin-top: 25px;
-    margin-left: 50px;
-    
-}
-
-.quadrado4{
-    width: 268px;
-    height: 208px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    margin-top: 25px;
-    margin-left: 50px;
-    
-}
-
-    
    
-    
-  
-  
+}
+.quad img{
+    width: 105px;
+    height: 105px;
+    margin-top: 26px;
+    margin-left: 81px;
+}
 
+.quad h1{
+    width: 116px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 23px;
+    margin-left: 95px;
+    color: #111826;
+}
+
+
+.quad h2{
+    width: 116px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 23px;
+    margin-left: 80px;
+}
