@@ -10,7 +10,6 @@ body{
     width: 100vw;
     height: 100vh;
     background: #E5E5E5;
-  
 
 }
 
@@ -85,28 +84,27 @@ body{
 }
 
 .text h6{
-  
-    display: flex;
-    align-items: center;
     width: 96px;
     height: 19px;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
-    margin-left: 920px;
+    margin-left: 938px;
     margin-top: -50px;
     color: #304F8C;
-
+    
 }
 
 .cabecario button {
-
+display: flex;
+align-items: center;
+justify-content: center;
 width: 150px;
 height: 44px;
 border: 0.8px solid #304F8C;
 border-radius: 8px;
 margin-left: 1058px;
-margin-top: -58px;
-background-color:#FFFFFF;
+margin-top: -35px;
+background:#FFFFFF;
 font-size: 16px;
 font-family: "rabik medium";
 color: #304F8C;
@@ -119,23 +117,26 @@ font-weight: 800;
 .C1 {
   
     width: 1280px;
-    height: 397px;
+    height: 415px;
+    margin-top: -70px;
     margin-left: 72px;
     border-radius: 0 0 10px 10px ;
     background-color: #FFFFFF;   
+
  
 
 }
 
+
 .T1 h1 {
-   
     width: 532px;
     height: 112px;
    font-size: 45px;
    font-family: "rabik bold";
    font-weight: 700;
-   margin-top: 59px;
+   margin-top: 70px;
    margin-left: 72px;
+  
 
    
 }
@@ -160,7 +161,7 @@ font-weight: 800;
     width: 250px;
     height: 60px;
     border-radius: 10px;
-    margin-top: 32px ;
+    margin-top: -50px ;
     margin-left: 72px;
     background-color: #304F8C;
     color: #FFFFFF;
@@ -174,8 +175,8 @@ font-weight: 800;
    
     width: 432px;
     height: 349px;
-    margin-top: -200px;
-    margin-left: 375px;
+    margin-top: -180px;
+    margin-left: 450px;
     
 }
 
@@ -183,7 +184,7 @@ font-weight: 800;
 .T2 {
     width: 1280px;
     height: 124px;
-    margin-top: 70px;
+    margin-top: 55px;
     border-radius: 10px;
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
@@ -618,7 +619,7 @@ font-weight: 800;
     height: 424px;
     margin-top: 89px;
     margin-left: 72px;
-
+    
 }
    
 
@@ -650,6 +651,8 @@ font-weight: 800;
     margin-top:30px ;
     margin-left: 10px;
     display: inline-flex;
+    
+    
 }
 
 .quad{
@@ -686,3 +689,418 @@ font-weight: 800;
     margin-top: 23px;
     margin-left: 80px;
 }
+
+
+.T5{
+   
+    width: 1135px;
+    height: 454px;
+    margin-top: 51px;
+    margin-left: 72px;
+
+}
+   
+
+
+.T5 h5 {
+    width: 82px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400 ;
+    margin-left: 35px ;
+
+    
+}
+
+.T5 h6 {
+    width: 826px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: 500 ;
+    margin-left: 43px ;
+    
+}
+
+
+.atua-quad{
+    width: 1135px;
+    height: 288px;
+    border-radius: 10px;
+    margin-top:30px ;
+    margin-left: 10px;
+    display: inline-flex;
+    
+    
+}
+
+.quade{
+    width: 268px;
+    height: 288px;
+    margin-left: 21px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    
+}
+
+#essencial .quade  {
+    background: #304F8C;
+
+    
+    border:  0.5px solid;
+}
+
+.quad1 h5{
+    width: 75px;
+    height: 30px;
+    color: #FFFFFF;
+   
+}
+
+.quad1 h2 {
+    color: #FFFFFF;  
+}
+
+.quad1 h3 {
+    color: #FFFFFF;  
+}
+
+.quad1 h4 {
+    color: #FFFFFF;  
+}
+
+
+
+
+
+
+.quade h1{
+    width: 69px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-left: 24px;
+    color: #111826;
+    
+}
+
+
+
+.quade h2{
+    width: 115px;
+    height: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-left: 24px;
+   
+}
+
+.quade h3{
+    width: 29px;
+    height: 21px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -25px;
+    margin-left: 138px;
+    
+}
+
+.quade h4{
+    width: 209px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 37px;
+    margin-left: 34px;
+    
+}
+
+.quade button{
+    width: 220px;
+    height: 48px;
+    border-radius: 8px;
+    color: #304F8C;
+    background: #FFFFFF;
+    border: 1px solid #304F8C;
+    margin-top: 24px;
+    margin-left: 24px;
+
+}
+
+ #popular button{
+    position: absolute;
+    width: 137px;
+    height: 37px;
+    border-radius:100px ;
+    color: #304F8C ;
+    background: #94F2E9;
+    border: none;
+    margin-left: 66px ;
+    margin-top: -285px;
+}
+
+.Final{
+    width: 770px ;
+    height: 392px;
+    border-radius: 13px;
+    border: 1px solid #000000;
+    background: #EAEDF3;
+    margin-top: 77px;
+    margin-left: 255px;
+
+}
+
+#aspa img {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    margin-top: -220px ;
+    margin-left: 639px ;
+   
+}
+
+
+#principal img{
+    width: 164.6px;
+    height: 175.18px;
+    margin-top: 24.82px;
+    margin-left: 300px;
+    }
+
+
+    .Final h1 {
+        width: 537px ;
+        height: 96px;
+        font-size: 16px;
+        font-weight: 500;
+       line-height:32px ;
+        margin-top: -140px ;
+    }
+
+    #ponto img{
+      width:108px ; 
+      height: 15px;
+      margin-top: 150px;
+      margin-left: 331px ;
+      
+        
+    }
+    
+    .Rodape{
+        width: 1280px;
+        height: 351px;
+        background: #111826;
+        margin-top: 96px;
+    }
+    .rodape1{
+
+        width: 97px;
+        height: 226px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 72px;
+
+       
+    }
+
+    .rodape1 h1{
+        width: 85px;
+        height: 40px;
+        display: flex;
+        font-size: 18px;
+        font-weight: 700 ;       
+        margin-left: 10px;
+        margin-top: 60px;
+        color: #FFFFFF;
+        
+    }
+    .rodape1 h2{
+        width: 97px;
+        height: 40px;
+    
+        
+        font-size: 16px;
+        font-weight: 400 ;    
+        margin-left: 10px;
+        margin-top: 16px;
+        color: #FFFFFF;
+       
+    }
+
+    .rodape2{
+
+        width: 97px;
+        height: 226px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 243px;
+
+        
+    }
+
+    .rodape2 h1{
+        width: 85px;
+        height: 40px;
+        display: flex;
+        font-size: 18px;
+        font-weight: 700 ;       
+        margin-left: 10px;
+        margin-top: -180px;
+        color: #FFFFFF;
+        
+    }
+    .rodape2 h2{
+        width: 183px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 400 ;    
+        margin-left: 10px;
+        margin-top: 16px;
+        color: #FFFFFF;
+        
+    }
+
+    .rodape3{
+
+        width: 97px;
+        height: 226px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 72px;
+
+       
+    }
+
+    .rodape3 h1{
+        width: 85px;
+        height: 40px;
+        display: flex;
+        font-size: 18px;
+        font-weight: 700 ;       
+        margin-left: 450px;
+        margin-top: -404px;
+        color: #FFFFFF;
+        
+    }
+    .rodape3 h2{
+        width: 100px;
+        height: 40px;
+    
+        font-size: 16px;
+        font-weight: 400 ;    
+        margin-left: 450px;
+        margin-top: 10px;
+        color: #FFFFFF;
+      
+    }
+
+    .rodape4{
+
+        width: 97px;
+        height: 226px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 72px;
+
+       
+    }
+
+    .rodape4 h1{
+        width: 85px;
+        height: 40px;
+        display: flex;
+        font-size: 18px;
+        font-weight: 700 ;       
+        margin-left: 674px;
+        margin-top: -630px;
+        color: #FFFFFF;
+        
+    }
+    .rodape4 h2{
+        width: 168px;
+        height: 40px;
+    
+        font-size: 16px;
+        font-weight: 400 ;    
+        margin-left: 674px;
+        margin-top: 10px;
+        color: #FFFFFF;
+      
+    }
+
+    .rodape5{
+
+        width: 97px;
+        height: 226px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 72px;
+
+       
+    }
+
+    .rodape5 h1{
+        width: 224px;
+        height: 40px;
+        display: flex;
+        font-size: 18px;
+        font-weight: 700 ;       
+        margin-left: 910px;
+        margin-top: -855px;
+        color: #FFFFFF;
+        
+    }
+
+
+    .rodape5 button{
+        width: 290px;
+        height: 40px;
+        background: #FFFFFF;
+        color: #111826;
+        font-size: 14px;
+        font-weight: 500 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 900px;
+        margin-top:20px ;
+
+    }
+    .rodape5 button img{
+        margin-top: 2px;
+        margin-left: 184px;
+       
+    }
+
+    
+    .rodape5 img{
+        width: 92px;
+        height: 18.59px;
+        margin-left: 900px;
+        margin-top: 16.4px;
+    }
+
+
+    .rodape6  h1{
+      width: 1280px;
+      height: 1px;
+      background: #FFFFFF;
+      margin-top: -830px;
+      margin-left: -1px;
+        
+    }
+
+    .rodape6 h2{
+      width: 150px;
+      height: 40px;
+      color: #FFFFFF;
+      font-family: 'Rubik';
+      font-style: normal;
+      line-height: 40px;
+      font-size: 14px ;
+      font-weight: 300;
+      margin-top:3px ;
+      margin-left: 569px ;
+
+    }
